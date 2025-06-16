@@ -1,0 +1,72 @@
+plugins {
+    id "groovy"
+    id "org.grails.plugins.views-json" version "3.2.3"
+    id "war"
+    id "idea"
+    id "application"
+    id "org.asciidoctor.jvm.convert" version "4.0.0-alpha.1"
+    id "eclipse"
+}
+
+// Not Published to Gradle Plugin Portal
+apply plugin: "org.grails.grails-web"
+
+group = "com.example"
+
+apply from: "gradle/asciidoc.gradle"
+repositories {
+    mavenCentral()
+    maven { url "https://repo.grails.org/grails/core/" }
+}
+
+configurations {
+    all {
+    }
+}
+
+dependencies {
+    profile "org.grails.profiles:rest-api"
+    developmentOnly "org.springframework.boot:spring-boot-devtools"
+//    implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0"
+    implementation "org.grails:grails-core"
+    implementation "org.grails:grails-logging"
+    implementation "org.grails:grails-plugin-databinding"
+    implementation "org.grails:grails-plugin-i18n"
+    implementation "org.grails:grails-plugin-interceptors"
+    implementation "org.grails:grails-plugin-rest"
+    implementation "org.grails:grails-plugin-services"
+    implementation "org.grails:grails-plugin-url-mappings"
+    implementation "org.grails:grails-web-boot"
+    implementation "org.grails.plugins:database-migration:4.2.1"
+    implementation "org.grails.plugins:hibernate5"
+    implementation "org.grails.plugins:views-json-templates"
+    implementation "org.springframework.boot:spring-boot-autoconfigure"
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "org.springframework.boot:spring-boot-starter-actuator"
+    implementation "org.springframework.boot:spring-boot-starter-logging"
+    implementation "org.springframework.boot:spring-boot-starter-tomcat"
+    implementation "org.springframework.boot:spring-boot-starter-validation"
+    compileOnly "io.micronaut:micronaut-inject-groovy"
+    console "org.grails:grails-console"
+    runtimeOnly "mysql:mysql-connector-java"
+    runtimeOnly "org.apache.tomcat:tomcat-jdbc"
+    testImplementation "io.micronaut:micronaut-inject-groovy"
+    testImplementation "org.grails:grails-gorm-testing-support"
+    testImplementation "org.grails:views-json-testing-support"
+    testImplementation "org.spockframework:spock-core"
+    testImplementation "org.testcontainers:mysql"
+    testImplementation "org.testcontainers:spock"
+    testImplementation "org.testcontainers:testcontainers"
+}
+
+application {
+    mainClass = "com.example.Application"
+}
+
+java {
+    sourceCompatibility = JavaVersion.toVersion("17")
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+}
