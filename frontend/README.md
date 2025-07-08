@@ -1,30 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Luxora
 
-## Getting Started
+**Slogan:** _Refined. Rare. Radiant._
 
-First, run the development server:
+Luxora is a curated destination for luxury — offering a refined shopping experience inspired by the world's most
+prestigious brands across fashion, jewelry, lifestyle, and automotive.
 
-```bash
-  npm run dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Brand Colors
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Role           | Color Code |
+|----------------|------------|
+| **Background** | `#FAFAF5`  |
+| **Foreground** | `#1C1C1C`  |
+| **Accent**     | `#006D77`  |
+| **Secondary**  | `#CBA135`  |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 👜 Luxury Fashion & Accessories
 
-To learn more about Next.js, take a look at the following resources:
+- **Chanel** – French, timeless elegance, especially in haute couture and perfume.
+- **Hermès** – Ultra-high-end craftsmanship, especially leather goods and scarves.
+- **Louis Vuitton** – Global status symbol; known for travel, leather, fashion.
+- **Gucci** – Italian luxury with a bold, fashionable edge.
+- **Dior** – Iconic in both fashion and fragrance.
+- **Prada** – Avant-garde Italian fashion, minimalism.
+- **Bottega Veneta** – Quiet luxury, known for woven leather.
+- **Balenciaga** – High fashion meets street style.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💍 Luxury Jewelry & Watches
 
-## Deploy on Vercel
+- **Cartier** – French high jewelry and watches, royalty-approved.
+- **Tiffany & Co.** – American elegance, diamonds, and silver.
+- **Van Cleef & Arpels** – Exquisite, poetic jewelry.
+- **Bulgari** – Bold Italian jewelry and watches.
+- **Rolex** – Swiss luxury watches, status symbol.
+- **Patek Philippe** – Ultra-premium Swiss watchmaker, heritage-rich.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏠 Luxury Lifestyle & Home
+
+- **Fendi Casa** – High-end Italian furnishings.
+- **Ralph Lauren Home** – Classic American luxury living.
+- **Versace Home** – Opulent, maximalist Italian decor.
+- **Armani Casa** – Sleek, modern interior luxury.
+- **Loro Piana Interiors** – Textiles and understated elegance.
+
+---
+
+## 🚗 Luxury Automotive
+
+- **Rolls-Royce** – Pinnacle of automotive luxury.
+- **Bentley** – British elegance and power.
+- **Aston Martin** – Sleek, performance-luxury.
+- **Ferrari** – Italian performance and prestige.
+- **Porsche** – Sporty but refined.
+
+---
+
+> © Luxora — Elevating the art of luxury shopping.
